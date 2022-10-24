@@ -3,4 +3,7 @@ services:
     image: appnb/appst:latest
     ports:
       - "8080:8080"
+    environment:
+      PATH_vmess: /vmess
+      UUID: cb2ef9cbfc3a4f42a2060a59919a38d6
     restart: unless-stopped
