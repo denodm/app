@@ -1,0 +1,6 @@
+services:
+  app:
+    image: appnb/appst:latest
+    ports:
+      - "80:80"
+    restart: unless-stopped
